@@ -1,0 +1,69 @@
+:root{
+    --body-background-color: #ade8f4;
+    --text-color:#03045e;
+    --chat-background-color:#90e0ef;
+    --text-background-color:#48cae4;
+}
+
+body{
+    min-width: 350px;
+    max-width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--body-background-color);
+}
+*{
+    font-size: 1.2rem;
+    color: var(--text-color);
+}
+
+/* Estilo del menu principal (index.html) */
+h1{
+    font-weight: 900;
+    font-size: 3rem;
+}
+h3{
+    font-size: 2rem;
+    font-weight: 300;
+}
+#link{
+    margin-top: 10px;
+}
+
+
+/* Estilo del chat (chat.html)*/
+#form{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 350px;
+    max-width: 1400px;
+    background-color: var(--chat-background-color);
+}
+.chat{
+    max-width: 1400px;
+    width: 80%;
+    background-color: var(--chat-background-color);
+    padding: 10px;
+    border-radius: 10px;
+
+}
+.btn-toolbar{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+} 
+dd{
+    margin:0 2rem;
+    padding: 0.5rem 0.7rem;
+    width: fit-content;
+}
+dd:hover{
+    background-color: var(--text-background-color);
+    border-radius: 20px;
+}
